@@ -1,0 +1,29 @@
+{
+	"scripts": {
+		"type:check": "tsc --noEmit"
+	},
+	"name": "accounts_sifiz",
+	"integrationName": "accounts-sifiz",
+	"keywords": [],
+	"private": true,
+	"author": "",
+	"license": "MIT",
+	"dependencies": {
+		"@botpress/client": "0.16.0",
+		"@botpress/sdk": "0.8.6",
+		"axios": "^1.6.8",
+		"node-telegram-bot-api": "^0.65.1",
+		"zod": "^3.23.6"
+	},
+	"devDependencies": {
+		"@botpress/cli": "^0.8.9",
+		"@types/node": "^18.19.32",
+		"@types/node-telegram-bot-api": "^0.64.6",
+		"eslint": "^9.2.0",
+		"globals": "^15.1.0",
+		"telegraf": "^4.16.3",
+		"ts-node": "^10.9.2",
+		"typescript": "^4.9.5",
+		"typescript-eslint": "^7.8.0"
+	}
+}
